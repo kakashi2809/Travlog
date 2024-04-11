@@ -1,0 +1,559 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    min-height: 100vh;
+    max-width: 100vw;
+}
+.navbar{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    background-color:white;
+    justify-content: space-between;
+    padding: 23px;
+}
+.LOGO{
+
+    width: 40px;
+height: 40px;
+position: relative;
+top: 7px;
+padding: 3px;
+}
+
+
+
+/* .logo{
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: 7px;
+  padding: 3px;
+
+} */
+.navbar .list{
+   padding: 10px;
+}
+.navbar .list li{
+    display: inline-block;
+
+}
+.navbar ul li a{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+   
+}
+.navbar .btn li{
+    display: inline-block;
+}
+.navbar .btn  i{
+    opacity: 0;
+}
+.navbar button{
+ 
+    width: 90px;
+    border-radius: 2px;
+    padding: 10px;
+    margin-left: 15px;
+   
+}
+.navbar .btn1{
+    border: none;
+    background: #FFFFFF;
+ 
+opacity: 0px;
+
+}
+.navbar .btn1:hover {
+    border: none;
+    background: #f71e1e;
+ 
+opacity: 0px;
+
+}
+.navbar .btn2{
+    border-radius: 100px;
+    background: #5D50C6;
+    /* border: none; */
+}
+.page1{
+    /* width: Fill (542px)px;
+height: Hug (449px)px;
+gap: 43px;
+opacity: 0px; */
+width: 50%;
+  height: 87vh;
+  /* background: aqua; */
+  float: left;
+  position: relative;
+  top: 51px
+
+}
+.page1 .text p{
+    position: relative;
+  top: 51px;
+  left: 35px;
+font-size: 69px;
+font-weight: 700;
+line-height: 82.8px;
+text-align: left;
+
+}
+.page1 .text p span{
+   color: #f694bc;
+ ;
+
+}
+.page1 .text .small-text{
+    position: relative;
+    top: 96px;
+    left: 40px;
+   
+font-size: 20px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+color: #19182580;
+
+
+
+}
+.page1 .btn{
+    display: inline-block;
+    position: relative;
+  top: 129px;
+  left: 60px;
+}
+.page1 .btn1{
+    background: #5D50C6;
+padding: 16px 32px 16px 32px;
+margin-right: 40px;
+border-radius: 100px;
+}
+.page1 .btn2{
+    background: white;padding: 16px 32px 16px 32px;
+    border: none;
+margin-right: 40px;
+border-radius: 100px
+}
+.page1 .btn2:hover {
+    background: #5D50C6;
+}
+.page2{
+    width: 50%;
+  height: 87vh;
+  /* background: purple; */
+  float: right;
+
+}
+.page2 .rec1{
+    position: relative;
+    width: 272px;
+height: 300px;
+top: 16px;
+  left: 0;
+border-radius: 32px ;
+}
+.page2 .rec3{
+    position: relative;
+    width: 272px;
+height: 300px;
+top: 142px;
+  left: 18px;
+border-radius: 32px ;
+}
+.page2 .rec2{
+    position: relative;
+    width: 272px;
+height: 300px;
+top: 33px;
+  left: 0;
+border-radius: 32px ;
+}
+.groups{
+    /* display: flex; */
+    margin: 30px;
+    position: relative;
+  top: 220px;
+  justify-content: space-between;
+  /* padding: 30px; */
+  left: 25px;
+}
+.groups img{
+    margin-right: 78px;
+
+}
+.page_2{
+    padding:40px ;
+}
+.header{
+    position: relative;
+    top: 250px;
+}
+.header h3{
+    width: 952px;
+height: 28px;
+gap: 0px;
+opacity: 0px;
+float: left;
+
+font-family: Circular Std;
+font-size: 23px;
+font-weight: 700;
+line-height: 27.6px;
+letter-spacing: 0.2em;
+text-align: left;
+color: #F85E9F;
+
+
+
+}
+.header h1{
+    width: 952px;
+height: 53px;
+gap: 0px;
+opacity: 0px;
+float: left;
+
+font-family: Circular Std;
+font-size: 44px;
+font-weight: 700;
+line-height: 52.8px;
+text-align: left;
+
+}
+ .buttons{
+   
+display: inline;
+float: right;
+position: relative;
+top: 171px;
+
+
+}
+ button:hover {
+  
+background: #5D50C6
+ }
+ .buttons button{
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    gap: 0px;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+.page_2 .box{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-gap: 33.3px 0;
+    column-gap: 124px;
+    position: relative;
+    top: 255px;
+}
+.page_2 .box .card{
+gap: 0px;
+opacity: 0px;
+border-radius: 32px 32px 32px 32px;
+box-shadow: -1em 0 .4em gray;
+padding: 5px;
+  height: 394px;
+  width: 260px;
+
+}
+.card img{
+    width: 250px;
+height: 250px;
+gap: 0px;
+border-radius:32px 32px 0px 0px;
+opacity: 0px;
+
+}
+.card .place_text{
+    width: 250px;
+height: 250px;
+gap: 0px;
+border-radius: 32px 32px 0px 0px;
+opacity: 0px;
+
+}
+.card .image{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .head{
+    float: left;
+}
+.card .price{
+    float: right;
+}
+.card .place_text .star{
+    width:  32px;
+height:  24px;
+gap: 8px;
+opacity: 0px;
+
+}
+.card .place_text{
+    display: flex;
+    flex-direction: column;
+}
+.footer_main{
+    position: relative;
+    top: 301px;
+  left: -5px;
+  
+    width: 100%;
+    background: #f3f1f1;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.tag{
+    width: 50%;
+    height: 40%;
+    padding: 20px;
+}
+.tag .image{
+    display: inline;
+    padding: 20px;
+}
+/* .tag .vector{
+    height:  50px;
+    width: 50px;
+    margin-right: 20px;
+} */
+.tag .travlog{
+    width: 142px;
+height:  40px;
+/* padding: 20px; */
+}
+.tag p{
+    color:  #19182580;
+   
+font-size: 23px;
+font-weight: 450;
+line-height: 36.8px;
+text-align: left;
+padding-top: 20px;
+padding-bottom: 56px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.tag .social{
+    display: inline;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.tag .social i{
+    margin-right: 30px;
+    width: 40px;
+    height: 40px;
+}
+.tag2{
+padding: 30px;
+}
+footer .footer_main .tag2 .center{
+    text-align:left;
+}
+footer .footer_main .tag2 h1{
+    
+/* font-family: Circular Std; */
+font-size: 23px;
+font-weight: 700;
+line-height: 27.6px;
+text-align: left;
+
+}
+
+footer .footer_main .tag2 a{
+    display: block;
+  
+/* font-family: Inter; */
+font-size: 18px;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
+text-decoration: none;
+color: #191825BF;
+
+
+}
+@media only screen and (max-width:1200px){
+    .list{
+        opacity: 0;
+    }
+    .page2 .rec1{
+        width: 105.62px;
+        height: 154px;
+        gap: 0px;
+        border-radius: 16.43px 0px 0px 0px;
+        opacity: 0px; 
+        left:-136px;
+        position: relative;
+        
+    }
+    .page2 .rec3{
+        width: 105.62px;
+        height: 154px;
+        gap: 0px;
+        border-radius: 16.43px 0px 0px 0px;
+        opacity: 0px; 
+        left: -8px;
+    top: -42px;
+        position: relative;
+    }
+    .page2 .rec2{
+        width: 105.62px;
+        height: 154px;
+        gap: 0px;
+        border-radius: 16.43px 0px 0px 0px;
+        opacity: 0px; 
+        left: -130px;
+        top: -129px;
+        position: relative;
+    }
+    .page1 .text p{
+        font-family: Circular Std;
+font-size: 30px;
+font-weight: 700;
+line-height: 38px;
+text-align: center;
+width: 281px;
+height: 144px;
+gap: 0px;
+opacity: 0px;
+position: relative;
+top: 292px;
+left: 0;
+
+    }
+    
+    .page1 .text .small-text{
+        top: 262px;
+  left: 3px;
+  text-align: center;
+  position: relative;
+    }
+    .page1 .btn{
+        position: relative;
+        top: 214px;
+        left: 52px;
+    }
+    .page1 .btn1{
+        width: 214px;
+    }
+    .page1 .btn2{
+        width: 214px;
+    }
+    .groups{
+        display: inline;
+       left: 0;
+       align-items: center;
+    }
+    .groups img{
+        width: 50px;
+        height: 30px;
+        margin: 11px;
+    }
+    .header h3{
+        position: relative;
+        left: 15px;
+        width: 344px;
+    }
+    .header h1
+    {
+        font-size: 25px;
+        width: 355px;
+       
+    }
+    .buttons{
+        
+        display: flex;
+      
+        position: relative;
+        top: 247px;
+    }
+    .buttons button{
+        /* align-items: center; */
+  width: 50px;
+  height: 50px;
+  gap: 50px;
+  border-radius: 100px;
+  margin-left: 122px;
+    }
+    .page_2 .box {
+        display: flex;
+        flex-direction: column;
+      }
+      .tag .image {
+        position: relative;
+        top: 0;
+        padding: 144px;
+      }
+      .tag p{
+        position: relative;
+        left: 133px;
+        font-size: 15px;
+        line-height: 23px;
+        text-align: left;
+        width: 290px;
+      }
+      .tag .social {
+        display: inline-block;
+        padding-top: 2px;
+        padding-left: 20px;
+        position: relative;
+        left: 133px;
+        width: 300%;
+        top: -29px;
+      }
+      
+      .tag .social i {
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+      }
+      .tag2 {
+        padding: 30px;
+        position: relative;
+        top: 293px;
+      }
+      .navbar .btn li {
+        display: inline-block;
+        opacity: 0;
+
+}
+.navbar .btn  i{
+    opacity: 1;
+    position: relative;
+    top: -52px;
+    left: 75px;
+}
+.page_2 .box .card {
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 32px 32px 32px 32px;
+    box-shadow: -1em 0 .4em gray;
+    padding: 5px;
+    height: 394px;
+    width: 260px;
+    left: -17px;
+    position: relative;
+  }
+}
